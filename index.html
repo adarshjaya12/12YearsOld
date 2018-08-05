@@ -2,12 +2,17 @@
     <head>
         <title></title>
         <link rel="stylesheet" type="text/css" href="./dist/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./dist/css/index.css">
     </head>
     <body>
-        <div style="background-color:#495676" class="parallel-span"></div>
-        <div style="background-color:#534976" class="parallel-span"></div>
-        <div style="background-color:#7f889f" class="parallel-span"></div>
-        <div style="background-color:#dadde3" class="parallel-span"></div>
+        <div id="container">
+            <div style="background-color:#495676" class="parallel-span first"></div>
+            <div style="background-color:#534976" class="parallel-span second"></div>
+            <div style="background-color:#7f889f" class="parallel-span third"></div>
+            <div style="background-color:#dadde3" class="parallel-span fourth"></div>
+        </div>
         <script src="./dist/js/index.js"></script>
+        <script src="https://lucafalasco.github.io/scroll-snap/scroll-snap.js"></script>
+        <script src="./dist/js/scrollsnap-polyfill.js"></script>
     </body>
 </html>
